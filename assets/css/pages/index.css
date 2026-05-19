@@ -1,2 +1,5 @@
 @import url('../global/global.css');
 @import url('./partials/main.css');
+@import url('./partials/sections.css');
+@import url('../global/fonts.css');
+@import url('/icons');

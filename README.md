@@ -5,7 +5,7 @@ O diferencial do **Açaí Zoo** é a união do açaí artesanal com a confeitari
 
 ## 🎨 Design & UX/UI
 O projeto foca em uma experiência lúdica para o usuário:
-* **Identidade Visual:** Cores vibrantes (Roxo e Laranja).
+* **Identidade Visual:** Cores vibrantes (Roxo, Verde e Marrom).
 * **Interface:** Cardápio organizado por "espécies".
 * **Responsividade:** Feito para funcionar em qualquer tela.
 
