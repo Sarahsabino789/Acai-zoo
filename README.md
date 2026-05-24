@@ -12,7 +12,6 @@ O projeto foca em uma experiência lúdica para o usuário:
 ## 🛠️ Tecnologias
 * **HTML5**
 * **CSS3**
-* **JavaScript** (Em breve)
 
 ## 📌 Status
 Concluído.
