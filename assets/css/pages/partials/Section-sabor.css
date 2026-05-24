@@ -1,0 +1,61 @@
+section#sabor {
+    height: 100vh;
+    background-color: var(--creme);
+    padding: 10px;
+}
+
+section p {
+    color: var( --roxo-texto);
+}
+
+section#sabor div iframe {
+    height: 100vh;
+    width: 50vw;
+    margin-top: 5vh;
+}
+
+.espacamentos {
+    padding: 38px;
+}
+
+p.promo {
+    font-size: clamp(0.6875rem, 0.8vw + 0.5rem, 0.875rem);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var( --roxo-texto);
+}
+
+span.bum {
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.452);
+}
+
+.botao {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    border-radius:  3.125rem;
+    padding: 1rem 2.5rem;
+    background-color: var(--verde-acento);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-size: clamp(0.875rem, 1.2vw + 0.5rem, 1.125rem);
+    color: var(--branco);
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+  .btn-icon {
+    height: 20px;
+    width: 24px ;
+    filter: brightness(0) invert(1);
+    transform: translateY(4px);
+}

@@ -9,27 +9,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>ChocoAçai Zoo</title>
+    <title>ChocoZoo Açaí</title>
 </head>
 <body>
 
-  <header class="position-global-h flex-organizacao-r" >
-    <nav > 
+  <header id="inicio" class="flex-organizacao-r">
+    <nav> 
         <ul class="lado-a-lado">
-            <li><a href="#historia" class="style">ChocoAçaí Zoo</a></li>
-            <li><a href="" class="style">Nossos Produtos</a></li>
-            <li><a href="" class="style">Blog</a></li>
+            <li><a href="#historia" class="style">ChocoZoo Açaí</a></li>
+            <li><a href="#cardapio" class="style">Combos Animais</a></li>
         </ul>
     </nav>
-    <img src="./images/Logomarca - ChocoZoo Açaí.png" alt="">
-    <nav>
-      <ul class="lado-a-lado">
-        <li><a href="" class="style">Contato</a></li>
-        <li><a href="" class="style">Conheça nossa loja</a></li>
-      </ul>
-    </nav>
-</header>
 
+    <img src="./images/Logomarca - ChocoZoo Açaí.png" alt="Logomarca ChocoZoo Açaí">
+
+    <nav>
+        <ul class="lado-a-lado">
+            <li><a href="#final" class="style">Redes Sociais</a></li>
+            <li><a href="#visite" class="style">Conheça nossa loja</a></li>
+        </ul>
+    </nav>
+
+    <div class="dropdown oculto">
+        <button class="btn btn-branco dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ☰ Menu
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#historia" class=" txt-roxo">ChocoZoo Açaí</a></li>
+            <li><a href="#cardapio" class="txt-roxo">Combos animais</a></li>
+            <li><a href="#final" class=" txt-roxo">Redes Sociais</a></li>
+            <li><a href="#visite" class="txt-roxo">Conheça nossa loja</a></li>
+        </ul>
+    </div>
+</header>
 <main>
         
         <section id="sabor" class="flex-organizacao-r">
@@ -42,16 +54,14 @@
                    <p class="promo"><span class="bum">💥</span>INAUGURAÇÃO DIA 28 DE MAIO • 20% OFF</p>
                     
                     <a href="#monte-seu-acai" class="style botao">MONTE SEU AÇAÍ 
-                        <img src="icons/arrow-right.svg" alt="Seta para a direita" class="btn-icon">
+                        <img src="icons/arrow-right.svg" alt="Rolar para a seção Monte seu Açaí" class="btn-icon">
                     </a>
                 </div>
             </div>
 
-            <figure>
-                <img src="images/Açai do section - mostruário.png" alt="Copo de açaí ChocoZoo decorado com chocolate artesanal de bicho e frutas frescas">
-            </figure>
-        </section>
+         <div class="sketchfab-embed-wrapper"> <iframe title="Acai Bowl" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/a69e652174fa43a4adc58828d13bdfe5/embed?autostart=1&camera=0&preload=1&transparent=1&dnt=1"> </iframe> </div>
 
+          </section>
 
         <section id="historia" class="flex-organizacao-cc" >
             <h2>Nossa <span class="verde">História</span></h2>
@@ -61,7 +71,7 @@
         </section>
 
 <section id="cardapio">
-    <h2>Nosso <span class="verde">Cardápio</span></h2>
+    <h2>Combos <span class="verde">animais</span></h2>
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -90,7 +100,7 @@
             <div class="carousel-item active">
                 <img src="images/Combo leão.png" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí intercaladas com creme artesanal de leite Ninho, fios de mel silvestre e uma granola premium com castanhas e coco queimado. O topo traz uma generosa montanha de chantilly com um leão de chocolate belga posicionado no centro, mantendo o fundo de folhas tropicais e mesa de madeira.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Leão</h5>
                     <p>Açaí puro, creme artesanal de Leito Ninho, granola premium com castanhas e coco queimado, mel silvestre, topo de chantilly e 1 Leão de chocolate belga.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -100,7 +110,7 @@
             <div class="carousel-item">
                 <img src="images/Combo macaco.png" class="d-block w-100" alt="Copo de açaí de 700ml exibindo rodelas de banana fresca decorando as laterais, camadas de farofa crocante de paçoca artesanal e calda escorrendo de doce de leite premium. Finalizado com um topo caprichado de chantilly e um macaco de chocolate belga decorativo no topo, sob cenário tropical.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Macaco</h5>
                     <p>Açaí puro, rodelas de banana fresca decorando o copo, farofa crocante de paçoca artesanal, calda escorrendo de doce de leite premium e 1 Macaco de chocolate belga no topo.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -109,7 +119,7 @@
 
             <div class="carousel-item">
                 <img src="images/Combo Preguiça.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml destacando o recheio verde de creme de pistache premium artesanal, camadas cremosas de leite Ninho e pedaços macios de brownie branco. O topo possui uma montanha de chantilly firme onde um bicho-preguiça de chocolate belga aparece descansando.">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Preguiça</h5>
                     <p>Açaí puro, creme de pistache premium artesanal, camadas cremosas de leite Ninho, pedaços macios de brownie branco e 1 Bicho-Preguiça de chocolate belga descansando no topo do chantilly.</p>
                     <data value="36.90">R$ 36,90</data>
@@ -119,7 +129,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Capivara.png" class="d-block w-100" alt="Copo de açaí de 700ml com linhas decorativas de calda trufada de chocolate ao leite nas paredes do copo, recheio de creme artesanal de Ovomaltine e pedaços de cookies de baunilha com gotas de chocolate. No topo, uma grande porção de chantilly sustenta uma capivara de chocolate belga.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Capivara</h5>
                     <p>Açaí puro, calda trufada de chocolate ao leite decorando o copo, creme artesanal de Ovomaltine, pedaços de cookies de baunilha com gotas de chocolate e 1 Capivara de chocolate belga no topo do chantilly.</p>
                     <data value="34.90">R$ 34,90</data>
@@ -128,7 +138,7 @@
 
             <div class="carousel-item">
                 <img src="images/Combo Flamingo.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Flamingo</h5>
                     <p>Açaí puro, calda artesanal de morango escorrendo pelas paredes do copo, creme texturizado de chocolate branco, pedaços de morango fresco entre as camadas, topo de chantilly e 1 Flamingo de chocolate no topo.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -138,7 +148,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Urso Polar.png" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí e recheio visível de calda de chocolate branco, leite Ninho em pó e pedaços de chocolate Laka. O topo tem uma grande montanha de chantilly com um ursinho de chocolate branco sentado no centro, sobre uma mesa de madeira com folhas tropicais ao fundo.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Urso Polar</h5>
                     <p>Açaí puro, calda cremosa de chocolate branco gelada, muito leite Ninho em pó espalhado pelo copo, pedaços de chocolate Laka picado, uma montanha de chantilly e 1 Urso Polar de chocolate no topo.</p>
                     <data value="29.90">R$ 29,90</data>
@@ -147,7 +157,7 @@
 
             <div class="carousel-item">
                 <img src="images/Combo Cachorro.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml mostrando listras de calda de caramelo salgado nas laterais, camadas de doce de leite artesanal e cookies de baunilha triturados. Finalizado com uma montanha de chantilly branca e um cachorrinho de chocolate decorativo no topo, posicionado em um cenário tropical.">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
 
                     <h5>ChocoZoo Cachorro</h5>
                     <p>Açaí puro, calda densa de caramelo salgado desenhada no copo, doce de leite cremoso artesanal, pedaços de cookie tradicional de baunilha triturados, topo de chantilly e 1 Cachorrinho de chocolate no topo.</p>
@@ -158,7 +168,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Gatinho.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml com camadas escuras de ganache de chocolate meio amargo, creme de avelã Nutella espalhado e pedaços de brownie artesanal picado. O topo de chantilly é coroado com um gatinho de chocolate detalhado, sobre uma mesa de madeira.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Gatinho</h5>
                     <p>Açaí puro, cobertura de ganache de chocolate meio amargo, creme de avelã Nutella puro espalhado pelas camadas, pedaços de brownie tradicional picado, topo de chantilly e 1 Gatinho de chocolate no topo.</p>
                     <data value="34.90">R$ 20,00</data>
@@ -168,7 +178,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Hamster.png" class="d-block w-100" alt="Copo transparente de 700ml com camadas generosas de açaí, creme de amendoim cremoso e pedaços picados de Bis Laka branco. O topo traz um espiral de chantilly decorado com um hamster feito de chocolate. Fundo com folhas verdes de Costela-de-Adão e mesa de madeira.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Hamster</h5>
                     <p>Açaí puro, fios de mel silvestre decorando as laterais, creme de amendoim estilo paçoquita cremosa, pedaços picados de Bis Laka branco entre as camadas, topo delicado de chantilly e 1 Hamster de chocolate no topo.</p>
                     <data value="29.90">R$ 29,90</data>
@@ -178,7 +188,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Panda.png" class="d-block w-100" alt="Copo de açaí de 700ml com efeito visual em preto e branco nas laterais, criado por ganache meio amargo, creme artesanal de coco e pedaços crocantes de biscoito Oreo. No topo da montanha de chantilly, há um urso panda esculpido em chocolate.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Panda</h5>
                     <p>Açaí puro, ganache de chocolate meio amargo e creme artesanal de coco espalhados pelas laterais imitando as cores do animal, pedaços de biscoito Oreo picados para trazer crocância preta e branca entre as camadas, topo de chantilly e 1 Panda de chocolate no topo.</p>
                     <data value="34.90">R$ 34,90</data>
@@ -188,8 +198,8 @@
             <div class="carousel-item">
                 <img src="images/Combo Lobo.png" class="d-block w-100" alt="Copo de açaí de 700ml com visual dark, mostrando calda escura de chocolate amargo 70% escorrendo, gotas de chocolate meio amargo e pedaços de biscoito Oreo entre as camadas de açaí. No topo do chantilly, encontra-se um lobo de chocolate em miniatura.">
 
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Combo Lobo</h5>
+                <div class="carousel-caption">
+                    <h5>ChocoZoo Lobo</h5>
                     <p>Açaí puro, calda escura de chocolate amargo 70%, gotas de chocolate meio amargo salpicadas, pedaços de biscoito Oreo picados trazendo crocância escura, topo de chantilly e 1 Lobo de chocolate no topo.</p>
                     <data value="34.90">R$ 34,90</data>
                 </div>
@@ -198,7 +208,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Tigre.png" class="d-block w-100" alt="Copo de açaí de 700ml com um padrão rajado nas paredes do copo feito com calda de doce de leite escura e creme de chocolate meio amargo, intercalado com KitKat picado. O topo de chantilly é finalizado com um tigre de chocolate com listras escuras.">
 
-                <div class="carousel-caption d-none d-md-block">
+               <div class="carousel-caption">
                     <h5>ChocoZoo Tigre</h5>
                     <p>Açaí puro, calda de doce de leite bem escura fazendo um efeito rajado nas paredes do copo, creme de chocolate meio amargo intercalado criando listras escuras, pedaços de KitKat picado, topo de chantilly e 1 Tigre de chocolate no topo.</p>
                     <data value="34.90">R$ 34,90</data>
@@ -208,7 +218,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Arara.png" class="d-block w-100" alt="Copo de açaí de 700ml exibindo três camadas de açaí intercaladas com creme de leite Ninho, pedaços coloridos de kiwi e manga, e uma calda brilhante de maracujá com sementes nas bordas. O topo tem chantilly e uma arara de chocolate colorida, com colher de calda ao lado.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Arara</h5>
                     <p>Açaí puro, calda brilhante de maracujá com sementes, creme de leite Ninho nas laterais, pedaços frescos de manga ou kiwi para dar cor, topo de chantilly e 1 Arara de chocolate no topo.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -218,7 +228,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Borboleta.png" class="d-block w-100" alt="Copo de açaí de 700ml com recheio de creme de leite Ninho e pedaços de chocolate Milka aerado com confetes coloridos em tons pastel. Uma calda mística e brilhante de mirtilo escorre pelas bordas. No topo do chantilly, há uma borboleta de chocolate decorada.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Borboleta</h5>
                     <p>Açaí puro, calda brilhante de frutas roxas (mirtilo ou amora) trazendo um tom místico, creme de leite Ninho nas laterais, pedaços de chocolate Milka com recheio aerado ou confetes coloridos em tons pastel escondidos nas camadas, topo de chantilly e 1 Borboleta de chocolate no topo.</p>
                     <data value="36.90">R$ 36,90</data>
@@ -228,7 +238,7 @@
             <div class="carousel-item">
                 <img src="images/Combo golfinho.png" class="d-block w-100" alt="Fotografia em formato paisagem de um copo de açaí de 700ml com linhas de calda de chocolate branco desenhadas no vidro, camadas de iogurte grego firme e uvas verdes sem semente. No topo do chantilly, destaca-se um golfinho de chocolate decorativo.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Golfinho</h5>
                     <p>Açaí puro, calda leve de chocolate branco decorando o copo, camadas de iogurte grego firme para trazer um toque azedinho, pedaços de uva verde sem semente, topo de chantilly e 1 Golfinho de chocolate no topo.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -238,7 +248,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Tubarão.png" class="d-block w-100" alt="Copo de açaí de 700ml com uma base concentrada de calda vermelha de frutas vermelhas no fundo, camadas de creme de leite Ninho e raspas de chocolate blend. O topo de chantilly leva um risco de calda vermelha e um tubarão de chocolate cinza no centro.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Tubarão</h5>
                     <p>Açaí puro, calda de frutas vermelhas bem vermelha concentrada no fundo do copo, creme de leite Ninho artesanal, raspas de chocolate blend espalhadas, topo de chantilly com um risco vermelho e 1 Tubarão de chocolate no topo.</p>
                     <data value="36.90">R$ 36,90</data>
@@ -248,7 +258,7 @@
             <div class="carousel-item">
                 <img src="images/Combo Baleia.png" class="d-block w-100" alt="Copo de açaí de 700ml repleto de calda de trufa de chocolate de panela, creme artesanal de Laka com Oreo e pedaços grandes de bombom Ouro Branco picado. No topo do chantilly caprichado, repousa uma baleia de chocolate brilhante.">
 
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Baleia</h5>
                     <p>Açaí puro, cobertura generosa de calda de trufa de chocolate de panela, creme artesanal de Laka com Oreo, pedaços grandes de bombom Ouro Branco picado, topo caprichado de chantilly e 1 Baleia de chocolate no topo.</p>
                     <data value="36.90">R$ 36,90</data>
@@ -257,7 +267,7 @@
 
             <div class="carousel-item">
                 <img src="images/Combo Leão marinho.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Leão Marinho</h5>
                     <p>Copo de açaí de 700ml com textura rica de Ovomaltine crocante e creme trufado de chocolate meio amargo nas bordas, preenchido com pedaços de bombom Sonho de Valsa. O topo de chantilly firme segura um leão-marinho de chocolate marrom.</p>
                     <data value="36.90">R$ 36,90</data>
@@ -266,7 +276,7 @@
 
             <div class="carousel-item">
                 <img src="images/Combo Peixe.png" class="d-block w-100" alt="Copo de açaí de 700ml focado no recheio de creme de chocolate branco, pedaços de abacaxi em calda e uma calda vibrante de tangerina escorrendo pelas laterais. O topo de chantilly sustenta um peixinho de chocolate com detalhes em laranja e azul.">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h5>ChocoZoo Peixinho</h5>
                     <p>Açaí puro, calda de tangerina ou laranja vibrante escorrendo, creme texturizado de chocolate branco, pedaços de abacaxi em calda bem escorridos nas camadas, topo de chantilly e 1 Peixinho de chocolate no topo.</p>
                     <data value="32.90">R$ 32,90</data>
@@ -287,62 +297,84 @@
 </section>
 
 
-        <section id="monte-seu-acai">
-            <h2>Monte Seu Açaí</h2>
+        <section id="monte-seu-acai" class="flex-organizacao-cc">
+            <h2>Monte Seu <span class="roxo">açaí</span></h2>
 
-            <div>
-                <article>
+            <div class="flex-organizacao-r">
+                <article class="style-a1">
+                    <span class="animais">🦁</span>
                     <h3>Açaí Clássico</h3>
-                    <data value="16.00">R$ 16,00</data>
+                    <data value="25.90">
+                         <span class="verde-e aumenta">R$ 25,90</span></data>
                     <ul>
-                        <li>✓ Base de açaí puro</li>
+                        <li>✓ Base de açaí puro.</li>
+                        <li>✓ Escolha até 4 complementos.</li>
+                        <li>✓ 1 complemento premium: nibs de cacau, frutas vermelhas, brownie, cookie e mais.</li>
+                        <li>✓ até 2 caldas</li>
+                        <li>✓ <strong>1 animal de chocolate</strong> à sua escolha.
+                        (chocolate ao leite, meio amargo ou branco).
+                        </li>
                     </ul>
                 </article>
 
-                <article>
-                    <header>
-                        <p>Premium</p>
-                    </header>
+                <article id="premium" class="style-a2">
+                    <span id="gruda">PREMIUM</span>
+                       <span class="animais">🐯🦁🐼</span>
                     <h3>Açaí Premium</h3>
-                    <data value="24.00">R$ 24,00</data>
+                    <data value="36.90">
+                        <span class="verde-aumenta">R$ 36,90</span>
+                    </data>
                     <ul>
-                        <li>✓ Base de açaí especial cremoso</li>
+                        <li>✓ Base de açaí especial cremoso.</li>
+                        <li>✓ Escolha até 4 Complementos.</li>
+                        <li>✓ Até 3 Complementos premium: nibs de cacau, frutas vermelhas, brownie, cookie e mais.</li>
+                        <li>✓ Caldas artesanais.</li>
+                        <li>✓<strong> Até 3 animais de chocolate</strong> à sua escolha(chocolate ao leite, meio amargo ou branco).</li>
                     </ul>
                 </article>
             </div>
         </section>
 
 
-        <section id="escolher">
-            <h2>Por Que Escolher o Açaí Zoo?</h2>
+        <section id="escolher" class="flex-organizacao-cc">
+            <h2>Por Que Escolher o 
+            <span class="marrom">choco</span>
+            <span class="verde-e">Zoo</span>
+            <span class="roxo">Açaí</span> ?</h2>
 
-            <div>
-                <article>
+            <div class="grid-tres-w">
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">🎨</span>
                     <h3>Experiência Visual Única</h3>
-                    <p>Chocolates artesanais em formato de animais que transformam cada açaí em uma obra de arte comestível.</p>
+                    <p>Chocolates artesanais em formato de animais que transformam cada açaí emuma obra de arte comestível.</p>
                 </article>
 
-                <article>
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">⭐</span>
                     <h3>Qualidade Premium</h3>
                     <p>Açaí 100% puro da Amazônia e ingredientes selecionados. Sabor autêntico e cremosidade incomparável.</p>
                 </article>
 
-                <article>
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">🎭</span>
                     <h3>Personalização Total</h3>
                     <p>Monte seu açaí exatamente do jeito que você ama. Do básico ao premium, você escolhe tudo!</p>
                 </article>
 
-                <article>
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">🏪</span>
                     <h3>Ambiente Lúdico</h3>
                     <p>Espaço temático da selva que encanta crianças e adultos. Perfeito para fotos e momentos especiais.</p>
                 </article>
 
-                <article>
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">🚀</span>
                     <h3>Atendimento Rápido</h3>
                     <p>Equipe treinada e processos otimizados para você não perder tempo. Qualidade sem demora!</p>
                 </article>
 
-                <article>
+                <article class="flex-organizacao-cc">
+                    <span class="emojis">💚</span>
                     <h3>Sustentabilidade</h3>
                     <p>Embalagens eco-friendly e compromisso com fornecedores que respeitam a Amazônia.</p>
                 </article>
@@ -350,71 +382,73 @@
         </section>
 
 
-        <section id="familia">
-            <h2>Junte-se à Família Zoo</h2>
+        <section id="familia" class="flex-organizacao-cc">
+            <h2>Junte-se à Família <span class="verde-e">Zoo</span></h2>
 
-            <div>
-                <article>
+            <div class="flex-organizacao-re">
+                <article id="trabalhe" class="style-a1 flex-organizacao-c" >
+                    <img class="icon-e" src="icons/briefcase.svg" alt="" aria-hidden="true">
                     <h3>Trabalhe Conosco</h3>
-                    <p>Quer fazer parte de um ambiente <strong>lúdico, criativo e cheio de energia?</strong> No Açaí Zoo, valorizamos pessoas apaixonadas por proporcionar experiências incríveis. Oferecemos treinamento completo, ambiente descontraído e oportunidade de crescimento. Se você ama atendimento ao cliente e quer trabalhar com um produto único, <strong>venha ser parte da nossa selva!</strong></p>
-                    <a href="#enviar-curriculo">Envie seu currículo</a>
+                    <p>Quer fazer parte de um ambiente <strong>lúdico, criativo e cheio<br>de energia?</strong> No Açaí Zoo, valorizamos pessoas<br> apaixonadas por proporcionar experiências incríveis.<br> Oferecemos treinamento completo, ambiente<br> descontraído e oportunidade de crescimento. Se você<br> ama atendimento ao cliente e quer trabalhar com um<br>produto único, <strong>venha ser parte da nossa selva!</strong></p>
+                    <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="style verde-e">Envie seu currículo <img class="icon-verde-e" src="./icons/send.svg" alt="Enviar mensagem de contato pelo chat"></a>
                 </article>
 
-                <article>
+                <span class="animal-animado">🦁</span>
+                <article id="escondido" class=" flex-organizacao-c">
+                    <img class="icon-c" src="icons/store.svg" alt="" aria-hidden="true">
                     <h3>Seja um Franqueado</h3>
-                    <p>Modelo de negócio <strong>innovador e lucrativo</strong> com produto diferenciado no mercado. O Açaí Zoo oferece suporte completo, treinamento especializado e um conceito visual único que encanta clientes de todas as idades. <strong>Baixo investimento, alto retorno e uma marca que viraliza nas redes sociais.</strong> Traga a selva para a sua cidade!</p>
-                    <a href="#quero-ser-franqueado">Quero ser franqueado</a>
+                    <p>Modelo de negócio <strong>inovador e lucrativo</strong> com produto<br> diferenciado no mercado. O Açaí Zoo oferece suporte<br> completo, treinamento especializado e um conceito visual<br> único que encanta clientes de todas as idades. <strong>Baixo<br> investimento, alto retorno e uma marca que viraliza nas<br> redes sociais.</strong> Traga a selva para a sua cidade!</p>
+                    <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="style verde-c">Quero ser franqueado <img class="icon-verde-c" src="./icons/send.svg" alt="Enviar mensagem de contato pelo chat"></a>
                 </article>
             </div>
         </section>
 
 
-        <section id="visite">
-            <h2>Visite Nossa Loja</h2>
+        <section id="visite" class="flex-organizacao-c espacamentos">
+            <h2>Visite Nossa <span class="marrom">Loja</span></h2>
 
-            <div>
-                <address>
-                    <div>
+            <div class="flex-organizacao-r espacos">
+                <address class="flex-organizacao-ccs">
+                    <div class="alarga">
+                        <img class="diminui" src="icons/marcar-mapa.svg" alt="" aria-hidden="true">
                         <h3>Endereço</h3>
                         <p>Rua da Selva, 123 - Centro</p>
                         <p>Rio de Janeiro - RJ</p>
                         <p>CEP: 20000-000</p>
                     </div>
 
-                    <div>
+                    <div class="alarga">
+                        <img class="icon-verde-c posiciona" src="icons/relogio.svg" alt="" aria-hidden="true">
                         <h3>Horário</h3>
                         <p>Segunda a Sábado: 10h às 22h</p>
                         <p>Domingo: 12h às 20h</p>
                         <p><strong>Delivery disponível! 🚀</strong></p>
                     </div>
                 </address>
-
                 <div>
                     <iframe 
-                        src="https://maps.google.com/" 
-                        title="Localização do Açaí Zoo no mapa"
-                        loading="lazy">
-                    </iframe>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.834745291316!2d-43.26100892551647!3d-22.94879257922556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd60ee643070f%3A0x3fa5f6b05b83c1f9!2sR.%20da%20Selva%20-%20Alto%20da%20Boa%20Vista%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020531-190!5e1!3m2!1spt-PT!2sbr!4v1779332229426!5m2!1spt-PT!2sbr" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <div>
-            <section>
-                <h2>Açaí Zoo</h2>
-                <p>O sabor da selva no seu copo. 🦁 leaf</p>
+    <footer id="final" class="flex-organizacao-cc">
+        <div id="dh" class="flex-organizacao-ra">
+
+            <section class="move-e">
+                <h2>ChocoAçaí Zoo</h2>
+                <p>O sabor da selva no seu copo. 🦁🌿</p>
             </section>
 
-            <nav>
+            <nav class="flex-organizacao-cc move-e">
                 <h3>Navegação</h3>
-                <ul>
-                    <li><a href="#cardapio">Cardápio</a></li>
-                    <li><a href="#unidades">Unidades</a></li>
-                    <li><a href="#fidelidade">Fidelidade</a></li>
-                    <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+                <ul class="move-d">
+                    <li><a href="#inicio" class="style">Início</a></li>
+                    <li><a href="#cardapio" class="style">Nossos Combos</a></li>
+                    <li><a href="#unidades" class="style">Visite-nos</a></li>
+                    <li><a href="#trabalhe-conosco" class="style">Trabalhe Conosco</a></li>
                 </ul>
             </nav>
 
@@ -423,17 +457,17 @@
                 <p>WhatsApp: (21) 98765-4321</p>
                 <p>Email: contato@acaizoo.com.br</p>
                 
-                <nav>
-                    <a href="https://instagram.com" rel="noopener" target="_blank">Instagram</a>
-                    <a href="tel:21987654321">Telefone</a>
-                    <a href="#endereco">Localização</a>
+                <nav id="icons-tamanho">
+                    <a href="https://instagram.com" rel="noopener" target="_blank"><img src="icons/instagram-icon.svg" class="branco-filter" alt="icone do instafram"></a>
+                    <a href="tel:21987654321"><img src="icons/telefone-icon.svg" alt="" id="iguala" class="branco-filter"></a>
+                    <a href="#endereco"><img src="icons/localizar.svg" alt="" id="sobe"></a>
                 </nav>
             </section>
         </div>
 
-        <div>
+        <div class="flex-organizacao-cc separa">
             <p>&copy; 2026 Açaí Zoo - Todos os direitos reservados.</p>
-            <p>Desenvolvido com heart por <strong>Sarah Sabino</strong>.</p>
+            <p>Desenvolvido com ❤️ por <strong>Sarah Sabino</strong>.</p>
         </div>
     </footer>
 
@@ -441,4 +475,3 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 </html>
-

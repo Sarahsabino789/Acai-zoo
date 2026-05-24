@@ -1,0 +1,54 @@
+header {
+   background: linear-gradient(to right, var(--verde-acento), var(--roxo-claro), var(--verde-acento));
+   grid-column: 1 / -1;
+   grid-row: 1/ 2;
+   height: 10vh;
+   position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    bottom: -3vh;
+    left: 0;
+    right: 0;
+    height: 20px;
+   
+}
+
+header div {
+    display: none;
+}
+
+header  img {
+   height: 15vh;
+    width: 17vw;
+    image-rendering: pixelated;
+    transform: translateY(1vw);
+    position: relative;
+    z-index: 2;
+}
+
+header a {
+    font-size: 1.1rem;
+}
+
+li a.style {
+ color: var(--branco);
+}
+
+ header li a.style:hover {
+    font-style: italic;
+    opacity: 60%;
+    border-bottom: 2px solid white;
+}
+
+ header li a.style:active {
+    font-style: normal;
+    opacity: 100%;
+    border-bottom: none;
+}
+
+.btn-branco {
+    background-color: white;
+}

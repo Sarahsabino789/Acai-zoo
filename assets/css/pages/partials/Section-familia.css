@@ -1,0 +1,54 @@
+section#familia {
+    background-color: var(--roxo-muito-claro);
+    padding: 1rem;
+    height: 110vh;
+    position: relative;
+}
+
+section#familia article {
+    padding: var(--card-padding);
+    margin-right: 30px;
+    gap: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+section#familia article:hover {
+    transform: scale(1.03);
+}
+
+section#familia article p {
+    font-size: 1rem;
+}
+
+.icon-e {
+    height: 8vh;
+    filter: invert(65%) sepia(50%) saturate(464%) hue-rotate(50deg) brightness(92%) contrast(88%);
+}
+
+.icon-c {
+   height: 10vh;
+}
+article#escondido {
+    position: relative;
+    border: 3px solid var(--verde-acento);
+    background-color: #8c5fbfe8;
+    color: white;
+    border-radius: 20px;
+}
+
+article#escondido h3 {
+    color: white;
+}
+
+article#escondido p {
+    color: white;
+}
+
+.animal-animado {
+    font-size: 8rem;
+    position: absolute;
+    bottom: 51%;
+    left: 76%;
+}
+
+

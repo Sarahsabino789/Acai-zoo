@@ -1,0 +1,50 @@
+section#cardapio {
+    background-color: var(--creme);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section#cardapio h2 {
+    padding-top: 40px;
+}
+
+#carouselExampleCaptions .carousel-item {
+    position: relative;
+    overflow: hidden;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 90vh;
+    object-fit: inherit;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 1rem;
+    color: white;
+}
+
+#carouselExampleCaptions .carousel-caption p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: white;
+}
+
+#carouselExampleCaptions .carousel-control-prev-icon,
+#carouselExampleCaptions .carousel-control-next-icon {
+    filter: invert(1);
+}

@@ -1,0 +1,84 @@
+footer {
+    background-color: var(--roxo-principal);
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
+    padding: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 9px;
+    background: linear-gradient(to right, var(--verde-acento), var(--roxo-claro), var(--verde-acento));
+}
+
+footer h2 {
+    color: white;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+}
+
+footer div h3 {
+    color: white;
+    transform: translateX(-1vw);
+    letter-spacing: 1px;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+}
+
+
+/*div dh = deixa horizontal por causa do flexbox row*/
+
+ div#dh > section:first-child   {
+    transform: translateY(-11vh);
+}
+
+div#dh > section:last-child {
+    transform: translateY(-5vh);
+}
+
+ div#dh > nav > :nth-child(2) {
+    transform: translateX(1vw);
+ }
+
+nav#icons-tamanho img {
+    height: 6vh;
+    transform: translateX(4vw);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.85;
+}
+
+nav#icons-tamanho img:hover {
+    transform: translateX(4vw) translateY(-4px);
+    opacity: 1;
+}
+
+nav#icons-tamanho a {
+    padding: .3rem;
+}
+
+nav#icons-tamanho img#iguala {
+    height: 3.8vh;
+}
+
+#sobe {
+    transform: translateY(20vh);
+}
+
+.separa {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+}

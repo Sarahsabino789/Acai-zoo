@@ -1,0 +1,12 @@
+section#historia {
+    background-color: var(--roxo-muito-claro);
+    height: 80vh;
+    padding: 20px;
+}
+
+section#historia p {
+padding: 30px;
+text-align: center;
+color: var( --roxo-texto);
+}
+
