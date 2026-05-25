@@ -42,11 +42,11 @@ footer div h3 {
 /*div dh = deixa horizontal por causa do flexbox row*/
 
  div#dh > section:first-child   {
-    transform: translateY(-11vh);
+    transform: translateY(-7vh);
 }
 
 div#dh > section:last-child {
-    transform: translateY(-5vh);
+    transform: translateY(-2.5vh);
 }
 
  div#dh > nav > :nth-child(2) {

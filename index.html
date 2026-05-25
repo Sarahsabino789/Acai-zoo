@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/pages/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,7 @@
         </ul>
     </nav>
 
-    <img src="./images/Logomarca - ChocoZoo Açaí.png" alt="Logomarca ChocoZoo Açaí">
+    <img src="./images/Logomarca - ChocoZoo Açaí.webp" alt="Logomarca ChocoZoo Açaí">
 
     <nav>
         <ul class="lado-a-lado">
@@ -31,7 +32,7 @@
     </nav>
 
     <div class="dropdown oculto">
-        <button class="btn btn-branco dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             ☰ Menu
         </button>
         <ul class="dropdown-menu">
@@ -59,9 +60,15 @@
                 </div>
             </div>
 
-         <div class="sketchfab-embed-wrapper"> <iframe title="Acai Bowl" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/a69e652174fa43a4adc58828d13bdfe5/embed?autostart=1&camera=0&preload=1&transparent=1&dnt=1"> </iframe> </div>
-
-          </section>
+<model-viewer
+    src="models/acai_bowl.glb"
+    alt="Açaí 3D ChocoZoo"
+    auto-rotate
+    camera-controls
+    poster="images/Foto principal - açaí.jpeg"
+    style="width: 50%; height: 400px; border-radius: 25px;">
+</model-viewer>
+</section>
 
         <section id="historia" class="flex-organizacao-cc" >
             <h2>Nossa <span class="verde">História</span></h2>
@@ -98,7 +105,7 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-                <img src="images/Combo leão.png" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí intercaladas com creme artesanal de leite Ninho, fios de mel silvestre e uma granola premium com castanhas e coco queimado. O topo traz uma generosa montanha de chantilly com um leão de chocolate belga posicionado no centro, mantendo o fundo de folhas tropicais e mesa de madeira.">
+                <img src="images/Combo leão.webp" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí intercaladas com creme artesanal de leite Ninho, fios de mel silvestre e uma granola premium com castanhas e coco queimado. O topo traz uma generosa montanha de chantilly com um leão de chocolate belga posicionado no centro, mantendo o fundo de folhas tropicais e mesa de madeira.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Leão</h5>
@@ -108,7 +115,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo macaco.png" class="d-block w-100" alt="Copo de açaí de 700ml exibindo rodelas de banana fresca decorando as laterais, camadas de farofa crocante de paçoca artesanal e calda escorrendo de doce de leite premium. Finalizado com um topo caprichado de chantilly e um macaco de chocolate belga decorativo no topo, sob cenário tropical.">
+                <img src="images/Combo macaco.webp" class="d-block w-100" alt="Copo de açaí de 700ml exibindo rodelas de banana fresca decorando as laterais, camadas de farofa crocante de paçoca artesanal e calda escorrendo de doce de leite premium. Finalizado com um topo caprichado de chantilly e um macaco de chocolate belga decorativo no topo, sob cenário tropical.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Macaco</h5>
@@ -118,7 +125,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Preguiça.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml destacando o recheio verde de creme de pistache premium artesanal, camadas cremosas de leite Ninho e pedaços macios de brownie branco. O topo possui uma montanha de chantilly firme onde um bicho-preguiça de chocolate belga aparece descansando.">
+                <img src="images/Combo Preguiça.webp" class="d-block w-100" alt="Copo de açaí gourmet de 700ml destacando o recheio verde de creme de pistache premium artesanal, camadas cremosas de leite Ninho e pedaços macios de brownie branco. O topo possui uma montanha de chantilly firme onde um bicho-preguiça de chocolate belga aparece descansando.">
                 <div class="carousel-caption">
                     <h5>ChocoZoo Preguiça</h5>
                     <p>Açaí puro, creme de pistache premium artesanal, camadas cremosas de leite Ninho, pedaços macios de brownie branco e 1 Bicho-Preguiça de chocolate belga descansando no topo do chantilly.</p>
@@ -127,7 +134,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Capivara.png" class="d-block w-100" alt="Copo de açaí de 700ml com linhas decorativas de calda trufada de chocolate ao leite nas paredes do copo, recheio de creme artesanal de Ovomaltine e pedaços de cookies de baunilha com gotas de chocolate. No topo, uma grande porção de chantilly sustenta uma capivara de chocolate belga.">
+                <img src="images/Combo Capivara.webp" class="d-block w-100" alt="Copo de açaí de 700ml com linhas decorativas de calda trufada de chocolate ao leite nas paredes do copo, recheio de creme artesanal de Ovomaltine e pedaços de cookies de baunilha com gotas de chocolate. No topo, uma grande porção de chantilly sustenta uma capivara de chocolate belga.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Capivara</h5>
@@ -137,7 +144,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Flamingo.png" class="d-block w-100" alt="...">
+                <img src="images/Combo Flamingo.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>ChocoZoo Flamingo</h5>
                     <p>Açaí puro, calda artesanal de morango escorrendo pelas paredes do copo, creme texturizado de chocolate branco, pedaços de morango fresco entre as camadas, topo de chantilly e 1 Flamingo de chocolate no topo.</p>
@@ -146,7 +153,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Urso Polar.png" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí e recheio visível de calda de chocolate branco, leite Ninho em pó e pedaços de chocolate Laka. O topo tem uma grande montanha de chantilly com um ursinho de chocolate branco sentado no centro, sobre uma mesa de madeira com folhas tropicais ao fundo.">
+                <img src="images/Combo Urso Polar.webp" class="d-block w-100" alt="Copo de açaí de 700ml com três camadas de açaí e recheio visível de calda de chocolate branco, leite Ninho em pó e pedaços de chocolate Laka. O topo tem uma grande montanha de chantilly com um ursinho de chocolate branco sentado no centro, sobre uma mesa de madeira com folhas tropicais ao fundo.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Urso Polar</h5>
@@ -156,7 +163,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Cachorro.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml mostrando listras de calda de caramelo salgado nas laterais, camadas de doce de leite artesanal e cookies de baunilha triturados. Finalizado com uma montanha de chantilly branca e um cachorrinho de chocolate decorativo no topo, posicionado em um cenário tropical.">
+                <img src="images/Combo Cachorro.webp" class="d-block w-100" alt="Copo de açaí gourmet de 700ml mostrando listras de calda de caramelo salgado nas laterais, camadas de doce de leite artesanal e cookies de baunilha triturados. Finalizado com uma montanha de chantilly branca e um cachorrinho de chocolate decorativo no topo, posicionado em um cenário tropical.">
                 <div class="carousel-caption">
 
                     <h5>ChocoZoo Cachorro</h5>
@@ -166,7 +173,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Gatinho.png" class="d-block w-100" alt="Copo de açaí gourmet de 700ml com camadas escuras de ganache de chocolate meio amargo, creme de avelã Nutella espalhado e pedaços de brownie artesanal picado. O topo de chantilly é coroado com um gatinho de chocolate detalhado, sobre uma mesa de madeira.">
+                <img src="images/Combo Gatinho.webp" class="d-block w-100" alt="Copo de açaí gourmet de 700ml com camadas escuras de ganache de chocolate meio amargo, creme de avelã Nutella espalhado e pedaços de brownie artesanal picado. O topo de chantilly é coroado com um gatinho de chocolate detalhado, sobre uma mesa de madeira.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Gatinho</h5>
@@ -176,7 +183,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Hamster.png" class="d-block w-100" alt="Copo transparente de 700ml com camadas generosas de açaí, creme de amendoim cremoso e pedaços picados de Bis Laka branco. O topo traz um espiral de chantilly decorado com um hamster feito de chocolate. Fundo com folhas verdes de Costela-de-Adão e mesa de madeira.">
+                <img src="images/Combo Hamster.webp" class="d-block w-100" alt="Copo transparente de 700ml com camadas generosas de açaí, creme de amendoim cremoso e pedaços picados de Bis Laka branco. O topo traz um espiral de chantilly decorado com um hamster feito de chocolate. Fundo com folhas verdes de Costela-de-Adão e mesa de madeira.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Hamster</h5>
@@ -186,7 +193,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Panda.png" class="d-block w-100" alt="Copo de açaí de 700ml com efeito visual em preto e branco nas laterais, criado por ganache meio amargo, creme artesanal de coco e pedaços crocantes de biscoito Oreo. No topo da montanha de chantilly, há um urso panda esculpido em chocolate.">
+                <img src="images/Combo Panda.webp" class="d-block w-100" alt="Copo de açaí de 700ml com efeito visual em preto e branco nas laterais, criado por ganache meio amargo, creme artesanal de coco e pedaços crocantes de biscoito Oreo. No topo da montanha de chantilly, há um urso panda esculpido em chocolate.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Panda</h5>
@@ -196,7 +203,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Lobo.png" class="d-block w-100" alt="Copo de açaí de 700ml com visual dark, mostrando calda escura de chocolate amargo 70% escorrendo, gotas de chocolate meio amargo e pedaços de biscoito Oreo entre as camadas de açaí. No topo do chantilly, encontra-se um lobo de chocolate em miniatura.">
+                <img src="images/Combo Lobo.webp" class="d-block w-100" alt="Copo de açaí de 700ml com visual dark, mostrando calda escura de chocolate amargo 70% escorrendo, gotas de chocolate meio amargo e pedaços de biscoito Oreo entre as camadas de açaí. No topo do chantilly, encontra-se um lobo de chocolate em miniatura.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Lobo</h5>
@@ -206,7 +213,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Tigre.png" class="d-block w-100" alt="Copo de açaí de 700ml com um padrão rajado nas paredes do copo feito com calda de doce de leite escura e creme de chocolate meio amargo, intercalado com KitKat picado. O topo de chantilly é finalizado com um tigre de chocolate com listras escuras.">
+                <img src="images/Combo Tigre.webp" class="d-block w-100" alt="Copo de açaí de 700ml com um padrão rajado nas paredes do copo feito com calda de doce de leite escura e creme de chocolate meio amargo, intercalado com KitKat picado. O topo de chantilly é finalizado com um tigre de chocolate com listras escuras.">
 
                <div class="carousel-caption">
                     <h5>ChocoZoo Tigre</h5>
@@ -216,7 +223,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Arara.png" class="d-block w-100" alt="Copo de açaí de 700ml exibindo três camadas de açaí intercaladas com creme de leite Ninho, pedaços coloridos de kiwi e manga, e uma calda brilhante de maracujá com sementes nas bordas. O topo tem chantilly e uma arara de chocolate colorida, com colher de calda ao lado.">
+                <img src="images/Combo Arara.webp" class="d-block w-100" alt="Copo de açaí de 700ml exibindo três camadas de açaí intercaladas com creme de leite Ninho, pedaços coloridos de kiwi e manga, e uma calda brilhante de maracujá com sementes nas bordas. O topo tem chantilly e uma arara de chocolate colorida, com colher de calda ao lado.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Arara</h5>
@@ -226,7 +233,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Borboleta.png" class="d-block w-100" alt="Copo de açaí de 700ml com recheio de creme de leite Ninho e pedaços de chocolate Milka aerado com confetes coloridos em tons pastel. Uma calda mística e brilhante de mirtilo escorre pelas bordas. No topo do chantilly, há uma borboleta de chocolate decorada.">
+                <img src="images/Combo Borboleta.webp" class="d-block w-100" alt="Copo de açaí de 700ml com recheio de creme de leite Ninho e pedaços de chocolate Milka aerado com confetes coloridos em tons pastel. Uma calda mística e brilhante de mirtilo escorre pelas bordas. No topo do chantilly, há uma borboleta de chocolate decorada.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Borboleta</h5>
@@ -236,7 +243,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo golfinho.png" class="d-block w-100" alt="Fotografia em formato paisagem de um copo de açaí de 700ml com linhas de calda de chocolate branco desenhadas no vidro, camadas de iogurte grego firme e uvas verdes sem semente. No topo do chantilly, destaca-se um golfinho de chocolate decorativo.">
+                <img src="images/Combo golfinho.webp" class="d-block w-100" alt="Fotografia em formato paisagem de um copo de açaí de 700ml com linhas de calda de chocolate branco desenhadas no vidro, camadas de iogurte grego firme e uvas verdes sem semente. No topo do chantilly, destaca-se um golfinho de chocolate decorativo.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Golfinho</h5>
@@ -246,7 +253,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Tubarão.png" class="d-block w-100" alt="Copo de açaí de 700ml com uma base concentrada de calda vermelha de frutas vermelhas no fundo, camadas de creme de leite Ninho e raspas de chocolate blend. O topo de chantilly leva um risco de calda vermelha e um tubarão de chocolate cinza no centro.">
+                <img src="images/Combo Tubarão.webp" class="d-block w-100" alt="Copo de açaí de 700ml com uma base concentrada de calda vermelha de frutas vermelhas no fundo, camadas de creme de leite Ninho e raspas de chocolate blend. O topo de chantilly leva um risco de calda vermelha e um tubarão de chocolate cinza no centro.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Tubarão</h5>
@@ -256,7 +263,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Baleia.png" class="d-block w-100" alt="Copo de açaí de 700ml repleto de calda de trufa de chocolate de panela, creme artesanal de Laka com Oreo e pedaços grandes de bombom Ouro Branco picado. No topo do chantilly caprichado, repousa uma baleia de chocolate brilhante.">
+                <img src="images/Combo Baleia.webp" class="d-block w-100" alt="Copo de açaí de 700ml repleto de calda de trufa de chocolate de panela, creme artesanal de Laka com Oreo e pedaços grandes de bombom Ouro Branco picado. No topo do chantilly caprichado, repousa uma baleia de chocolate brilhante.">
 
                 <div class="carousel-caption">
                     <h5>ChocoZoo Baleia</h5>
@@ -266,7 +273,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Leão marinho.png" class="d-block w-100" alt="...">
+                <img src="images/Combo Leão marinho.webp" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>ChocoZoo Leão Marinho</h5>
                     <p>Copo de açaí de 700ml com textura rica de Ovomaltine crocante e creme trufado de chocolate meio amargo nas bordas, preenchido com pedaços de bombom Sonho de Valsa. O topo de chantilly firme segura um leão-marinho de chocolate marrom.</p>
@@ -275,7 +282,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="images/Combo Peixe.png" class="d-block w-100" alt="Copo de açaí de 700ml focado no recheio de creme de chocolate branco, pedaços de abacaxi em calda e uma calda vibrante de tangerina escorrendo pelas laterais. O topo de chantilly sustenta um peixinho de chocolate com detalhes em laranja e azul.">
+                <img src="images/Combo Peixe.webp" class="d-block w-100" alt="Copo de açaí de 700ml focado no recheio de creme de chocolate branco, pedaços de abacaxi em calda e uma calda vibrante de tangerina escorrendo pelas laterais. O topo de chantilly sustenta um peixinho de chocolate com detalhes em laranja e azul.">
                 <div class="carousel-caption">
                     <h5>ChocoZoo Peixinho</h5>
                     <p>Açaí puro, calda de tangerina ou laranja vibrante escorrendo, creme texturizado de chocolate branco, pedaços de abacaxi em calda bem escorridos nas camadas, topo de chantilly e 1 Peixinho de chocolate no topo.</p>
@@ -443,11 +450,11 @@
 
             <nav class="flex-organizacao-cc move-e">
                 <h3>Navegação</h3>
-                <ul class="move-d">
+                <ul>
                     <li><a href="#inicio" class="style">Início</a></li>
                     <li><a href="#cardapio" class="style">Nossos Combos</a></li>
-                    <li><a href="#unidades" class="style">Visite-nos</a></li>
-                    <li><a href="#trabalhe-conosco" class="style">Trabalhe Conosco</a></li>
+                    <li><a href="#visite" class="style">Visite-nos</a></li>
+                    <li><a href="#familia" class="style">Trabalhe Conosco</a></li>
                 </ul>
             </nav>
 
@@ -457,9 +464,9 @@
                 <p>Email: contato@acaizoo.com.br</p>
                 
                 <nav id="icons-tamanho">
-                    <a href="https://instagram.com" rel="noopener" target="_blank"><img src="icons/instagram-icon.svg" class="branco-filter" alt="icone do instafram"></a>
-                    <a href="tel:21987654321"><img src="icons/telefone-icon.svg" alt="" id="iguala" class="branco-filter"></a>
-                    <a href="#endereco"><img src="icons/localizar.svg" alt="" id="sobe"></a>
+                    <a href="https://instagram.com" rel="noopener" target="_blank"><img src="icons/instagram-icon.svg" class="branco-filter" alt="Clique aqui para ser direcionado ao nosso instagram"></a>
+                    <a href="tel:21987654321"><img src="icons/telefone-icon.svg" alt="Clique aqui para falar conosco por celular" id="iguala" class="branco-filter"></a>
+                    <a href="#endereco"><img src="icons/localizar.svg" alt="Clique aqui para saber nosso endereço" id="sobe"></a>
                 </nav>
             </section>
         </div>
